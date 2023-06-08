@@ -35,7 +35,7 @@
   </ol>
 </details>
 
-
+![interface](web/assets/interface-example.png)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -46,6 +46,8 @@ The api was build using Node.js, express and cors as dependencies.
 
 Here you will find a project of a event api. The interface have a form that you can create and see the events you added previously.
 The data is beein saved in runtime, there is no database implemented.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
