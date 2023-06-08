@@ -40,16 +40,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project is a coding challenge for professor Cory Coletta at Humbber College for Employ and Portf Design - WDDM - 124 - IGA.
+The project consists in a api and an application that can access it.
+The api was build using Node.js, express and cors as dependencies.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `README.md` to get started.
+Here you will find a project of a event api. The interface have a form that you can create and see the events you added previously.
+The data is beein saved in runtime, there is no database implemented.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,23 +53,18 @@ Use the `README.md` to get started.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here follows the instructions to run this project in your pc.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+* Node.js
 * npm
-  ```sh
-  npm install
-  ```
+* vsCode
+* liveServer Extension
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/XDYuuki/wddm-124-code-challenge
    ```
@@ -81,16 +72,12 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm install
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+4. Run api server
+   ```sh
+   cd wddm-124-code-challenge/api/
+   npm start
+   ```
+5. run index.html with liveServer VSCode extension.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +92,6 @@ Project Link: [https://github.com/XDYuuki/wddm-124-code-challenge.git](https://g
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/gabriellbr/
 [Bootstrap-url]: https://getbootstrap.com
+[Node.js-url]: https://nodejs.org/en
