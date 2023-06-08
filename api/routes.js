@@ -8,4 +8,6 @@ routes.get("/event-list", controller.listEvents);
 
 routes.post("/create-new-event", controller.createEvent);
 
+routes.delete("/delete-event", controller.deleteEvent);
+
 module.exports = routes;

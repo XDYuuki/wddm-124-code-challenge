@@ -9,9 +9,9 @@ class App {
     constructor() {
         this.express = express();
 
-        this.routes();
-        this.midlewares();
         this.usingCors();
+        this.midlewares();
+        this.routes();
     }
 
     routes() {
